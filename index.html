@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SI 579 Problems Set 4</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+        <script src="https://kit.fontawesome.com/b482d3a9b9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <h1>This is a ToDo List!</h1>
+            <h2>I will write some hints here to guide you explore this web page<br>
+                You can click on the list item 1 to make it disappear;<br>
+                click on list item 2,3 and 4 to change their color;<br>
+                and click on 5 and 6 to change their size<br>
+                You can also hit the space bar to see the time in the footer<br>
+                Or add task in the input bar then click the button (don't imput nothing!)<br>
+                <p id="important">Added Font Awesoomoe and moment.js to the assignment</p> 
+            </h2>
+            <ul>
+                <li id="disappear"><i class="far fa-check-square"></i> Watch course recording</li>
+                <li class="changecolor"><i class="far fa-check-square"></i> Check CSS and JS Tutorial</li>
+                <li class="changecolor"><i class="far fa-check-square"></i> Make a new web site</li>
+                <li class="changecolor"><i class="far fa-check-square"></i> Write CSS code to make it look better</li>
+                <li class="changesize"><i class="far fa-check-square"></i> Write JS code to give it reaction</li>
+                <li class="changesize"><i class="far fa-check-square"></i> Upload it to Github</li>
+            </ul>
+
+            <input name="addToDo" type="text" maxlength="512" id="inputbox">
+            <button type="button" id="addToDo">Add this event to ToDo</button>
+        </main>
+        <footer id="showtime">
+            Here is the current time.
+        </footer>
+        <script src="dist/main.js"></script>
+    </body>
+</html>
